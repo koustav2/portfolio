@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Logo from "../assets/myphotos/pic4.jpg";
+
 
 function Home() {
   return (
@@ -14,12 +14,7 @@ function Home() {
           <h1 className="text-3xl sm:text-5xl font-bold text-[#ccd6f6] flex">
             Koustav Maity
           </h1>
-          <img
-            src={Logo}
-            alt=""
-            style={{ width: "70px" }}
-            className="ml-4 rounded-full"
-          />
+
         </div>
         <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]">
           I'm a Front-End Developer and

@@ -8,12 +8,14 @@ import Skills from './Components/Skills'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
+import Photo from './Components/Photo'
 
 function App() {
 
   return (
     <div className="">
       <NavBar/>
+      <Photo/>
       <Home/>
       <About/>
       <Skills/>
