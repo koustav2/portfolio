@@ -16,8 +16,8 @@ function NavBar() {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className=' flxed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 sticky top-0 z-50 drop-shadow-lg shadow-blue-600'>
-            <div>
+        <div className=' flxed w-full h-[80px] gap-96 flex justify-around items-center px-4 bg-[#0a192f] text-gray-300 sticky top-0 z-50 drop-shadow-lg shadow-blue-600'>
+            <div >
                 <img src={Logo} alt='Logo Image' style={{ width: '100px' }} className='rounded' />
             </div>
             {/* menu */}
