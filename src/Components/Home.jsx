@@ -22,14 +22,9 @@ function Home() {
           />
         </div>
         <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]">
-          I'm a Front-End Developer.
+          I'm a Front-End Developer and
+          Technical enthusiastic
         </h2>
-        <p className="text-[#6c6e74] py-4 max-w-[700px]">
-          A Front-End developer and Technical enthusiastic specializing in
-          building (and occasionally designing) exceptional digital experiences.
-          Currently, I'm focused on building responsive Front-end web
-          applications and E-Commarce website.
-        </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 rounded-bl-lg ">
             View Work

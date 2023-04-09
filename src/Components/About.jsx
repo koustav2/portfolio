@@ -18,7 +18,8 @@ const About = () => {
             </div>
             <div className='flex justify-center items-center'>
               <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating web app and e-commerce website and landing page. What would you do if you had
+              the lives of those around me. I specialize in creating web app and e-commerce website and landing page.Currently, I'm focused on building responsive Front-end web
+          applications and E-Commarce website. What would you do if you had
               a frontend Engineer available at your fingertips?</p>  
             </div>
           </div>
