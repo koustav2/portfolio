@@ -21,7 +21,7 @@ function NavBar() {
                 <img src={Logo} alt='Logo Image' style={{ width: '100px' }} className='rounded' />
             </div>
             {/* menu */}
-            <ul className='hidden md:flex gap-4  '>
+            <ul className='hidden md:flex gap-4  justify-evenly '>
                 <Link to='home' smooth={true} duration={500} className='link link-underline link-underline-black' >
                     Home
                 </Link>
