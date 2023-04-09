@@ -16,35 +16,35 @@ function NavBar() {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className='flxed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div className=' flxed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 sticky top-0 z-50 drop-shadow-lg shadow-blue-600'>
             <div>
                 <img src={Logo} alt='Logo Image' style={{ width: '100px' }} className='rounded' />
             </div>
             {/* menu */}
-            <ul className='hidden md:flex'>
-                <Link to='home' smooth={true} duration={500}  className='link link-underline link-underline-black' >
+            <ul className='hidden md:flex gap-4  '>
+                <Link to='home' smooth={true} duration={500} className='link link-underline link-underline-black' >
                     Home
                 </Link>
-                <li>
-                    <Link to='about' smooth={true} duration={500} className='link link-underline link-underline-black'>
-                        About
-                    </Link>
-                </li>
-                <li>
-                    <Link to='skills' smooth={true} duration={500} className='link link-underline link-underline-black'>
-                        Skills
-                    </Link>
-                </li>
-                <li>
-                    <Link to='work' smooth={true} duration={500} className='link link-underline link-underline-black'>
-                        Projects
-                    </Link>
-                </li>
-                <li>
-                    <Link to='contact' smooth={true} duration={500} className='link link-underline link-underline-black'>
-                        Contact
-                    </Link>
-                </li>
+
+                <Link to='about' smooth={true} duration={500} className='link link-underline link-underline-black'>
+                    About
+                </Link>
+
+
+                <Link to='skills' smooth={true} duration={500} className='link link-underline link-underline-black'>
+                    Skills
+                </Link>
+
+
+                <Link to='work' smooth={true} duration={500} className='link link-underline link-underline-black'>
+                    Projects
+                </Link>
+
+
+                <Link to='contact' smooth={true} duration={500} className='link link-underline link-underline-black'>
+                    Contact
+                </Link>
+
             </ul>
             {/* hamburger menu*/}
             <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
@@ -82,7 +82,7 @@ function NavBar() {
             </ul>
 
             {/* social icons */}
-            <div className=' sm:flex fixed flex-col top-[35%] left-0 <i class="fa fa-i-cursor" aria-hidden="true"></i>'>
+            <div className=' sm:flex fixed drop-shadow-xl shadow-blue-600 flex-col top-[300%] left-0 <i class="fa fa-i-cursor" aria-hidden="true"></i>'>
                 <ul>
                     <li className='social bg-blue-600'>
                         <a

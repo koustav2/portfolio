@@ -42,7 +42,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 200px;
+    
+    height: 150px;
     opacity: 1;
 
     
@@ -60,9 +61,10 @@
     border-bottom-width: 0;
     
     background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-    background-size: 0 3px;
+    background-size: 0 5px;
     background-position: 0 100%;
     background-repeat: no-repeat;
+
     transition: background-size .5s ease-in-out;
 }
 
@@ -72,5 +74,7 @@
 
 .link-underline:hover {
     background-size: 100% 3px;
-    background-position: 0 100%
+    background-position: 0 100%;
+    color:rgb(152, 79, 192);
 }
+
