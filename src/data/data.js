@@ -25,6 +25,7 @@ export const data=[
         name:"JS Application",
         image:SnakeGame,
         github:"https://github.com/koustav2/SnakeGame",
+        live:"https://snake-game-rosy-tau.vercel.app/",
     },
     {
         id:4,
