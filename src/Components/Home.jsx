@@ -23,7 +23,7 @@ function Home() {
         </div>
         <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]">
           I'm a Front-End Developer and
-          Technical enthusiastic
+          Technical enthusiastic.
         </h2>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 rounded-bl-lg ">
