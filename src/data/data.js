@@ -2,7 +2,7 @@ import Calculator from "../assets/projects/calculator.png";
 import Weather from "../assets/projects/weathercurrentstat.png";
 import ToDo from "../assets/projects/todo.png";
 import RandomQuote from "../assets/projects/randomQuote.png";
-import SnakeGame from "../assets/projects/snakeGame.png";
+import SnakeGame from "../assets/projects/snakegame.png";
 
 
 export const data=[
